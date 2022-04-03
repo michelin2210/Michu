@@ -17,9 +17,14 @@ public class Demo {
 		}
 	}
 
+	private void hello() {
+		System.out.println("hello");
+	}
+
 	public static void main(String[] args) {
 		Demo d = new Demo();
 		d.methodEnumeration();
+		d.hello();
 	}
 
 }
